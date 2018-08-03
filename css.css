@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#everything {
+  width: 100%;
+  height: 100%;
+}
+#header {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 7px solid #4fd0ff;
+  background-color: #00BBFF;
+  position: relative;
+  display: block;
+  transition: 0.4s;
+}
+#header.sticky{
+  position: fixed;
+  top: 0px;
+  height: 40px;
+  font-size: 20px;
+  background-color: white;
+  border-bottom: 5px solid #00BBFF;
+
+}
+.header-item {
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+  font-family: 'Lato', sans-serif;
+  color: #effaff;
+  font-size: 30px;
+  transition: 0.4s;
+}
+.header-item:hover {
+  background-color: #4fd0ff;
+  cursor: pointer;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.header-item.header-sticky {
+  font-size: 20px;
+  line-height: 40px;
+  color: #00BBFF;
+}
+#filler-top {
+  width: 100%;
+  height: 500px;
+  display: block;
+  background-color: #00BBFF;
+  font-size: 80px;
+  font-family: 'Luckiest Guy', sans-serif;
+  line-height: 500px;
+  color: white;
+  text-align: center;
+}
+#filler-bottom {
+  width: 100%;
+  height: 1034px;
+  display: block;
+  text-align: center;
+  margin-top: 300px;
+}
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
